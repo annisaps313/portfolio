@@ -104,3 +104,7 @@ main button{
     border-radius: 50px;
     font-size: 16px;
 }
+/* image */
+img{
+    object-fit: cover;
+}

@@ -85,3 +85,8 @@ nav a:hover{
 nav a:active{
     opacity: 30%;
 }
+/* footer */
+footer a{
+    color: black;
+    text-decoration: none;
+}

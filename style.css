@@ -63,3 +63,20 @@ footer div{
     display: flex;
     gap: 20px
 }
+/* another style */
+nav a{
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 14px 22px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 300ms ease-in-out;
+}
+nav a:hover{
+    background: black;
+    color: white;
+}
+nav a:active{
+    opacity: 30%;
+}

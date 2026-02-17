@@ -43,9 +43,11 @@ nav{
 }
 section{
     display: flex;
+    align-items: center;
     gap: 24px;
     padding: 80px 50px;
     font-size: 76px;
+    line-height: 90px;
 }
 main{
     display: flex;

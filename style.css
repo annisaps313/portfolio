@@ -21,3 +21,15 @@ section{
     padding: 80px 50px;
     font-size: 76px;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    font-size: 38px;
+}
+footer div{
+    font-size: 21px;
+    display: flex;
+    gap: 20px
+}

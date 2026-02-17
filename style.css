@@ -21,6 +21,14 @@ section{
     padding: 80px 50px;
     font-size: 76px;
 }
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 50px;
+}
+main div{
+    flex: 1 1 300px;
+}
 footer{
     display: flex;
     justify-content: space-between;

@@ -72,11 +72,9 @@ footer div{
 }
 /* nav */
 nav a{
-    color: black;
     border: 2px solid black;
     border-radius: 25px;
     padding: 14px 22px;
-    text-decoration: none;
     font-weight: 500;
 }
 nav a:hover{
@@ -110,7 +108,8 @@ footer a:active{
     opacity: 30%;
 }
 /* text link */
-main a, footer a{
+nav a, main a,
+footer a{
     text-decoration: none;
     color: black;
 }

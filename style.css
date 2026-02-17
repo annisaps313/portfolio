@@ -75,13 +75,13 @@ footer div{
     gap: 20px
 }
 /* nav */
-nav a{
+nav div a{
     border: 2px solid black;
     border-radius: 25px;
     padding: 14px 22px;
     font-weight: 500;
 }
-nav a:hover{
+nav div a:hover{
     background: black;
     color: white;
 }
@@ -98,17 +98,17 @@ img{
     object-fit: cover;
 }
 /* active touched */
-nav a, main a, 
+nav div a, main a, 
 footer a{
     transition: all 300ms ease-in-out;
 }
-nav a:active, 
+nav div a:active, 
 main a:active, 
 footer a:active{
     opacity: 30%;
 }
 /* text link */
-nav a, main a,
+nav div a, main a,
 footer a{
     text-decoration: none;
     color: black;

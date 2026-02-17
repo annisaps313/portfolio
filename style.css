@@ -15,3 +15,9 @@ nav{
     font-size: 128px;
     padding: 80px 50px;
 }
+section{
+    display: flex;
+    gap: 24px;
+    padding: 80px 50px;
+    font-size: 76px;
+}

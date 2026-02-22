@@ -79,12 +79,14 @@ footer div{
 }
 /* nav */
 nav div a{
-    border: 2px solid black;
-    border-radius: 25px;
     padding: 14px 22px;
     font-weight: 500;
 }
-nav div a:hover{
+nav div a:last-child{
+    border: 2px solid black;
+    border-radius: 25px;
+}
+nav div a:last-child:hover{
     background: black;
     color: white;
 }
@@ -101,7 +103,7 @@ img{
     object-fit: cover;
 }
 /* active touched */
-nav div a, main a, 
+nav div a, mazin a, 
 footer a{
     transition: all 300ms ease-in-out;
 }

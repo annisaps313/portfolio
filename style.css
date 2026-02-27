@@ -20,20 +20,20 @@ html{
     box-sizing: inherit;
 }
 body{
-    background-color: #FBFCFD;
-    border: 2px solid black;
+    background-color: #29A6AF;
+    border: 5px solid black;
     border-top: 0;
-    margin: 0;
+    margin: 20px;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
     position: sticky;
-    background-color: #FBFCFD;
+    background-color: #29A6AF;
     top: 0;
 }
 nav div{
@@ -42,7 +42,7 @@ nav div{
 }
 .hero{
     line-height: 120px;
-    font-size: 120px;
+    font-size: 115px;
     padding: 80px 50px;
     display: flex;
     gap: 8px;
@@ -65,7 +65,7 @@ main{
     padding: 80px 50px;
 }
 main a{
-    flex: 1 1 300px;
+    flex: 1 1 150px;
 }
 footer{
     display: flex;

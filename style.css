@@ -20,7 +20,7 @@ html{
     box-sizing: inherit;
 }
 body{
-    background-color: #29A6AF;
+    background-color: #F3B84C;
     border: 5px solid black;
     border-top: 0;
     margin: 20px;
@@ -33,7 +33,7 @@ nav{
     border-top: 5px solid black;
     border-bottom: 5px solid black;
     position: sticky;
-    background-color: #29A6AF;
+    background-color: #F3B84C;
     top: 0;
 }
 nav div{

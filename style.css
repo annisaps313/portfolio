@@ -56,6 +56,10 @@ main{
     align-items: center;
     flex-wrap: wrap;
 }
+.hero p{
+    font-size: 21px;
+    line-height: 30px;
+}
 section{
     display: flex;
     align-items: center;

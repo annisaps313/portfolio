@@ -95,7 +95,6 @@ nav div a:last-child{
 nav div a:last-child:hover{
     background: black;
     color: white;
-    transform: scale(1.1);
 }
 /* .projects */
 .projects button{

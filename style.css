@@ -84,18 +84,6 @@ footer div{
     display: flex;
     gap: 20px
 }
-/* nav */
-nav div a{
-    padding: 14px 22px;
-}
-nav div a:last-child{
-    border: 4px solid black;
-    border-radius: 50px;
-}
-nav div a:last-child:hover{
-    background: black;
-    color: white;
-}
 /* .projects */
 .projects button{
     border: 1px solid black;
@@ -124,7 +112,15 @@ footer a{
     text-decoration: none;
     color: black;
 }
-nav div a, footer div{
+nav div a, footer div a{
     font-size: 21px;
     font-weight: 800;
+    padding: 14px 22px;
+    border: 4px solid black;
+    border-radius: 50px;
+}
+nav div a:hover,
+footer div a:hover{
+    background: black;
+    color: white;
 }

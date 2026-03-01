@@ -85,7 +85,6 @@ footer div{
 /* nav */
 nav div a{
     padding: 14px 22px;
-    font-weight: 800;
 }
 nav div a:last-child{
     border: 4px solid black;
@@ -125,4 +124,5 @@ footer a{
 }
 nav div a, footer div{
     font-size: 21px;
+    font-weight: 800;
 }

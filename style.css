@@ -43,6 +43,8 @@ nav div{
 main{
     overflow-y: scroll;
     height: calc(100dvh - 156px);
+    scrollbar-width: thin;
+    scrollbar-color: black #E3C1B7;
 }
 .hero{
     line-height: 120px;

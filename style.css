@@ -106,7 +106,7 @@ img{
     object-fit: cover;
 }
 /* active touched */
-nav div a, mazin a, 
+nav div a, .projects a, 
 footer a{
     transition: all 300ms ease-in-out;
 }

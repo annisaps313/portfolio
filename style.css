@@ -40,6 +40,10 @@ nav div{
     display: flex;
     gap: 10px;
 }
+main{
+    overflow-y: scroll;
+    height: calc(100dvh - 151px);
+}
 .hero{
     line-height: 120px;
     font-size: 115px;
